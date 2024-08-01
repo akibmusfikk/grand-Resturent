@@ -1,0 +1,628 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    padding: 100px 45px;
+}
+
+.banner{
+    background-image: url(/image/photo-1426259759666-68da5c54402d.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F0F0F0EB;
+    align-items: center;
+    padding: 10px 45px;
+}
+
+.icon-nav {
+	font-size: 18px;
+    padding-right: 10px;
+}
+
+.menu-1 {
+	width: 60%;
+    gap: 20px;
+}
+
+.menu-2 {
+	width: 40%;
+    gap: 30px;
+}
+
+.icon-list{
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ul-menu2 {
+	list-style: none;
+    gap: 25px;
+}
+
+.sc-icons {
+	gap: 20px;
+    font-size: 18px;
+}
+
+.nav-2{
+    padding: 30px 45px;
+    justify-content: space-between;
+}
+
+
+
+.image-logo{
+    width: 145px;
+    height: auto;
+}
+
+.nav2-menu{
+    color: white;
+}
+
+.ul-menu22{
+    list-style: none;
+    gap: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.hero-txt{
+    text-align: center;
+    color: white;
+    padding: 0px 200px;
+}
+
+.hero-txt h1{
+    font-size: 75px;
+    font-family: "Herr Von Muellerhoff";
+    color:#fff;
+    font-weight: normal;
+}
+
+.hero-txt h3{
+    font-size: 110px;
+    font-weight: 900;
+    font-family: "Cinzel", sans-serif;
+    line-height: 65px;
+}
+
+.hero-txt h3 span{
+    font-size: 62px;
+    font-weight: 900;
+    font-family: "Cinzel", sans-serif;
+}
+
+.story-sec{
+    gap: 20px;
+    padding: 100px 45px;
+    padding-right: 60px;
+}
+
+.story-1 {
+	text-align: center;
+	width: 40%;
+    box-shadow: 0px 2px 60px 0px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 120px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 60px 50px 65px 50px;
+  border-radius: 5px;
+}
+
+.story-1 h1 {
+	font-size: 65px;
+	font-family: "Herr Von Muellerhoff";
+	color: #CFA670;
+    font-weight: normal;
+}
+
+.story-1 h2 {
+	font-size: 55px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+}
+
+.story-1 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222222;
+    padding-bottom: 30px;
+}
+
+.story-1 a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #CFA670;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #CFA670;
+    padding: 0px 0px 03px 0px;
+}
+
+.story-2{
+    background-image: url(/image/image-from-rawpixel-id-2049757-jpeg-768x1152.jpg);
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.story-2:hover{
+    transform: scale(1.1);
+}
+
+.story-3{
+    background-image: url(/image/latin-american-food-traditional-chilean-pork-soup-XE2RS5P-768x1124.jpg);
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.back-img-sec{
+    background-image: url(image/Chocolate-explosion-2048x1152-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 65vh;
+}
+
+.menu-section{
+    padding: 100px 45px;
+    gap: 50px;
+}
+
+.m-left{
+    width: 50%;
+}
+
+.m-left-1{
+    background-color: black;
+    border-radius: 5px;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+
+}
+
+.m-left-1 h1{
+    font-size: 65px;
+	font-family: "Herr Von Muellerhoff";
+	color: #CFA670;
+    font-weight: normal;
+}
+
+.m-left-1 h2{
+    font-size: 55px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+    color: #fff;
+
+}
+
+.m-left-1 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+
+
+.m-left-2{
+    border-radius: 5px;
+    padding: 50px 0px;
+    border: 1px solid black;
+    margin-top:40px ;
+
+}
+
+.m-left-2 h2{
+    font-size: 32px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+    color: #000000;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.m-left-2 h3{
+    font-size: 20px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+    color: #000000;
+}
+
+.m-left-2 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.m-sec-1 {
+	padding: 0px 50px;
+}
+
+.black-bg {
+	border: 1px solid black;
+	border-radius: 5px;
+    margin: 0px 30px;
+}
+
+.box-2 {
+	padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.black-bg h4{
+    background-color: black;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-family: "Cinzel", sans-serif;
+
+}
+
+
+.m-right{
+    width: 50%;
+}
+
+.m-right-2{
+    border-radius: 5px;
+    padding: 50px 0px;
+    border: 1px solid black;
+    margin-top: 40px;
+
+}
+
+.m-right-2 h2{
+    font-size: 32px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+    color: #000000;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.m-right-2 h3{
+    font-size: 20px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+    color: #000000;
+}
+
+.m-right-2 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.m-sec-2 {
+	padding: 20px 50px;
+}
+
+.visit-sec{
+    padding: 100px 45px;
+}
+
+
+.visit-1{
+    width: 60%;
+}
+.visit-2{
+    width: 40%;
+}
+
+
+.visit-11{
+    gap: 20px;
+}
+
+
+
+
+.v-bg-1{
+    width: 33%;
+    background-image: url(/image/irina-89UsTc5bjsw-unsplash-768x575.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 194px;
+    height: 146px;
+    border-radius: 5px;
+}
+
+
+.visit-12{
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.v-bg-12{
+    width: 70%;
+    background-image: url(/image/irina-89UsTc5bjsw-unsplash-768x575.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    width: 445px;
+    height: 298px;
+}
+.v-bg-13{
+    width: 70%;
+    background-image: url(/image/irina-89UsTc5bjsw-unsplash-768x575.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    width: 197px;
+    height: 298px;
+}
+
+.visit-22 {
+	text-align: center;
+    box-shadow: 0px 2px 60px 0px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 60px 50px 65px 50px;
+  border-radius: 5px;
+}
+
+.visit-22 h1 {
+	font-size: 65px;
+	font-family: "Herr Von Muellerhoff";
+	color: #CFA670;
+    font-weight: normal;
+}
+
+.visit-22 h2 {
+	font-size: 55px;
+	font-family: "Cinzel", sans-serif;
+	font-weight: 600;
+}
+
+.visit-22 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222222;
+    padding-bottom: 30px;
+}
+
+.visit-22 a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #CFA670;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #CFA670;
+    padding: 0px 0px 03px 0px;
+}
+
+.slider{
+    background-image: url(image/latin-american-food-traditional-chilean-pork-soup-XE2RS5P-768x1124.jpg);
+}
+
+.swiper {
+    width: 100%;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .booking-sec.d-flex {
+	gap: 60px;
+    padding: 100px 45px 100px 45px;
+}
+
+
+  .booking-sec p {
+	font-size: 15px;
+	font-weight: 500;
+    line-height: 27px;
+}
+
+
+  .left-b {
+	width: 60%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.left-11 {
+	gap: 50px;
+    padding-top: 50px;
+}
+
+.left-b h1 {
+	font-size: 34px;
+	font-weight: 500;
+}
+
+.left-11 h2 {
+	font-size: 22px;
+	font-weight: 600;
+    padding-bottom: 15px;
+}
+
+
+.left-phn {
+	width: 50%;
+}
+
+.left-book {
+	width: 50%;
+}
+
+.l-p{
+    padding-top: 10px;
+}
+
+.right-b {
+	width: 40%;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.right-b h2 {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.right-border {
+	border: 1px solid white;
+	border-radius: 5px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    padding: 50px;
+}
+
+.r-11 {
+	width: 50%;
+}
+
+.r-22 {
+	width: 50%;
+}
+
+.right-border a {
+	color: white;
+	text-decoration: none;
+	color: black;
+	background: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.r-pt{
+    padding-top: 30px;
+}
+
+.r-pb{
+    padding-bottom: 50px;
+}
+
+.foot-bg.d-flex {
+	background: black;
+	color: white;
+    padding: 50px 35px;
+    gap: 50px;
+}
+
+.icon-list22 {
+	text-decoration: none;
+	color: #cccc;
+	font-size: 15px;
+	font-weight: 500;
+	list-style: none;
+    font-family: "montserrat";
+}
+
+.ft-1 h1 {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "montserrat";
+    padding-bottom: 20px;
+}
+.swiper-slide {
+	background: transparent;
+    color: #fff;
+}
+
+.ft-icons.d-flex {
+	gap: 20px;
+	font-size: 22px;
+    padding-top: 30px;
+}
+
+.ft-img {
+	width: 60%;
+    padding-bottom: 30px;
+}
+
+.icon-list22 li {
+    padding-bottom: 30px;
+}
+
+.icon-list22 i {
+	padding-right: 15px;
+    color: #fff !important;
+}
+
+.icon-list23 p{
+    color: #cccc;
+  font-size: 15px;
+  font-weight: 500;
+  list-style: none;
+  font-family: "montserrat";
+}
+
+.ft-2.d-flex {
+	padding: 20px 30px;
+	justify-content: space-between;
+    font-size: 13px;
+    font-family: "montserrat";
+    font-weight: 500;
+    background-color: #000000;
+    color: #cccc;
+    border-top: 0.5px solid #cccc;
+
+}
+
+
+.ft-2menu.d-flex {
+	gap: 20px;
+    color: #fff;
+}
